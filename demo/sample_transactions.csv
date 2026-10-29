@@ -1,0 +1,7 @@
+date,type,amount,description,category
+2026-09-01,income,60000,Monthly allowance,Allowance
+2026-09-02,expense,450,Campus Cafe,Food
+2026-09-03,expense,250,Bus fare,Transport
+2026-09-04,expense,1800,Books and stationery,Academics
+2026-09-05,expense,699,Streaming subscription,Subscriptions
+2026-09-06,expense,950,Cinema outing,Entertainment

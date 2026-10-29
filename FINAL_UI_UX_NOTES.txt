@@ -1,0 +1,36 @@
+CAMPUS COIN — DAY 4 FINAL UI / UX NOTES
+=======================================
+
+Preserve the existing Campus Coin dark-green editorial theme. The Day 4 work is additive and corrective rather than a redesign.
+
+1. UNIVERSAL DISPLAY SETTINGS
+- Public home navbar: Appearance is immediately beside Sitemap.
+- Student app top bar: Appearance is immediately beside Notifications.
+- Admin app top bar: Appearance is immediately beside Sign out.
+- Both student and admin have dedicated Display Settings pages.
+
+2. WHITE MODE
+- White mode uses explicit dark text, white/near-white cards, readable table rows, visible form controls, readable badges and chart surfaces.
+- Sidebar intentionally remains dark green so navigation preserves contrast and identity.
+- Charts and progress indicators switch to a darker-on-light presentation.
+
+3. TIME GREETING
+- Asia/Karachi is the application display timezone.
+- Morning: 00:00–11:59
+- Afternoon: 12:00–16:59
+- Evening: 17:00–23:59
+
+4. CURRENCY
+- 18 supported currencies.
+- Currency selection is stored per user and is used by money() throughout authenticated pages.
+- No exchange-rate conversion is claimed or performed.
+
+5. DASHBOARD
+- Daily Spending chart remains in the first dashboard view.
+- If there is no spending data, the chart shows a clear no-data message rather than an empty black region.
+- Dashboard Budget Portal appears before Budget vs Actual and explains Income Budget first, Expense Budget second.
+
+6. ACCESSIBILITY / RESPONSIVE
+- Appearance controls are keyboard-focusable buttons/forms.
+- Mobile navigation continues to close after a menu item is selected.
+- Budget portal collapses to a single column on smaller screens.

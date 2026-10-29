@@ -1,0 +1,1 @@
+<?php declare(strict_types=1);require __DIR__.'/../../includes/bootstrap.php';require_student();verify_csrf($_POST['csrf_token']??null);db()->prepare('UPDATE budgets SET is_active=0 WHERE budget_id=? AND user_id=?')->execute([(int)$_POST['budget_id'],(int)current_user()['user_id']]);flash('success','Budget removed.');redirect('student/budgets.php');

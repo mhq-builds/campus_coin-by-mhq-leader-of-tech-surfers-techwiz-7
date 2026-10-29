@@ -1,0 +1,34 @@
+CAMPUS COIN — DAY 4 FINAL SUBMISSION CHECK
+===========================================
+
+Project root inside ZIP:
+  campus_coin/
+
+Database deliverable:
+  campus_coin/database/campus_coin.sql
+
+Demo credentials:
+  Admin:   admin@campuscoin.local / Admin@12345
+  Student: student@campuscoin.local / Student@12345
+
+Day 4 final touches included:
+  1. Universal Appearance / Display Settings access from the public home navbar.
+  2. Universal Appearance access in the student top bar beside Notifications.
+  3. Universal Appearance access in the admin top bar beside Sign out.
+  4. Dedicated student and admin Display Settings pages.
+  5. Dark green + high-clarity white theme with explicit light-mode contrast overrides.
+  6. 18 supported display/budget currencies.
+  7. Currency preference persisted per user and used by money displays.
+  8. Correct Pakistan local-time greeting: morning < 12, afternoon 12–16, evening 17+.
+  9. Dashboard daily spending chart fallback + render error protection.
+ 10. Dashboard Budget Portal now guides Income Budget first, then Expense Budgets.
+ 11. Monthly income budget saved to users.monthly_allowance_baseline.
+ 12. Budget portal links and live health monitoring retained.
+
+Validation performed in build workspace:
+  - PHP syntax lint is required for all PHP files before submission.
+  - Redirects must remain BASE_URL-aware.
+  - Database runtime should be smoke-tested in the target XAMPP MySQL environment immediately before recording the final video.
+
+Important:
+  The supplied dev credentials are demo credentials only. Change/remove them for any public deployment.

@@ -1,0 +1,4 @@
+AI TOOLS ACKNOWLEDGEMENT
+
+Campus Coin development used AI-assisted support for planning, debugging, coding assistance and UI ideation.
+The team remains responsible for reviewing, modifying, testing and understanding the final implementation.

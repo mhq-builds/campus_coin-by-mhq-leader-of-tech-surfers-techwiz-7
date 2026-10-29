@@ -1,0 +1,14 @@
+FINAL NAVIGATION / UX FIXES
+
+1. Homepage "How it works" now targets #flow correctly.
+2. Student/admin sidebar navigation is now an independently scrollable region.
+3. The account/profile footer no longer competes for sidebar scroll space.
+4. Sign out is now permanently available in the authenticated top header.
+5. Student greeting remains visible in the header.
+6. Mobile sidebar links close the drawer after navigation.
+
+Install this folder fresh as:
+C:\\xampp\\htdocs\\campus_coin\\
+
+Open:
+http://localhost/campus_coin/
